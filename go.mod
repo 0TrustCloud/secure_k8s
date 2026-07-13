@@ -1,20 +1,21 @@
 module github.com/0TrustCloud/secure_k8s
 
-go 1.25.0
+go 1.25.10
 
 require (
-	github.com/0TrustCloud/secure_network v1.1.5
+	github.com/0TrustCloud/secure_network v1.1.6
 	github.com/0TrustCloud/secure_policy v1.0.6
-	github.com/0TrustCloud/secure_ssh v0.1.1
+	github.com/0TrustCloud/secure_ssh v0.1.2
 	golang.org/x/term v0.44.0
 )
 
 require (
-	github.com/0TrustCloud/auth_provider v1.0.1 // indirect
+	github.com/0TrustCloud/auth_provider v1.0.5 // indirect
 	github.com/0TrustCloud/guikit v1.1.3-0.20260530040829-bb3a7bb56546 // indirect
-	github.com/0TrustCloud/logger v1.0.3-0.20260531010651-0732aad9e52f // indirect
+	github.com/0TrustCloud/logger v1.0.3 // indirect
+	github.com/0TrustCloud/samln v1.0.5 // indirect
 	github.com/0TrustCloud/secure_data_format v1.0.0 // indirect
-	github.com/0TrustCloud/ultimate_db v1.2.2 // indirect
+	github.com/0TrustCloud/ultimate_db v1.3.6 // indirect
 	github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc // indirect
 	github.com/creack/pty v1.1.24 // indirect
 	github.com/flynn/noise v1.1.0 // indirect
