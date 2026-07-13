@@ -3,9 +3,9 @@ module github.com/0TrustCloud/secure_k8s
 go 1.25.0
 
 require (
-	github.com/0TrustCloud/secure_network v1.1.4
+	github.com/0TrustCloud/secure_network v1.1.5
 	github.com/0TrustCloud/secure_policy v1.0.6
-	github.com/0TrustCloud/secure_ssh v0.1.0
+	github.com/0TrustCloud/secure_ssh v0.1.1
 	golang.org/x/term v0.44.0
 )
 
